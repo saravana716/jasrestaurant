@@ -1,0 +1,117 @@
+.revolutions{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    margin: 50px 0px;
+}
+
+.revlotions1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: green;
+}
+.ch1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: yellow;
+}
+.ch1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ch{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+.revolutionsinner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    padding: 40px 70px;
+    background-image: url("../../Assets/Poke\ DEMO/clear-05.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Stratagies{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.Stratagies img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.stratagies1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#e68590;
+
+}
+.revolutionsinner h3{
+    font-family: "Covered By Your Grace", serif;
+    color: #7b8b9c;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.revolutionsinner h1{
+    font-family: "Signika", serif;
+    color: #363636;
+    margin-bottom: 20px;
+}
+.revolutionsinner p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Signika", serif;
+
+}
+.revolutionsinner button{
+    padding: 15px 50px;
+    border-radius: 100px;
+    margin-top: 20px;
+    background-color:#68bbc3;
+    color: white;
+    border: none;
+}
+.contents123{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Signika", serif;
+
+}
+.contents123 h3{
+    margin-bottom: 20px;
+}
+.contents123 h6{
+    font-size: 15px;
+    line-height: 30px;
+}

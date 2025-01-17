@@ -1,0 +1,97 @@
+.Documents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.DocLeft{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px 20px 0px 50px;
+}
+.DocRight{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.DocTop{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Docbottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.files{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted gray;
+    flex-direction: column;
+}
+.files h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Docbtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Docbtn .back{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none!important;
+    border-radius: 5px;
+}
+.Docbtn .Next{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none!important;
+    border-radius: 5px;
+}
+.Doc{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none !important;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: 1s;
+}
+.Doc:hover{
+    background-color:lightblue;
+    color: black;
+}
+.Doc.active {
+    background-color: #007bff; /* Highlight color */
+    color: white;
+}
+.add{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none !important;
+    cursor: pointer;
+}
